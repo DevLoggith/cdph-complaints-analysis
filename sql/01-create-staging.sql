@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS complaints_raw;
+
 CREATE TABLE complaints_raw (
     ObjectId TEXT,
     id TEXT,
