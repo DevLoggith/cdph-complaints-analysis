@@ -1,6 +1,8 @@
 -- This creates a new, typed table with the columns needed for queries used in this project.
--- Distinct complaint numbers were chosen arbitrarily as the only unique value between each one
--- was the dw_parcel values which are not needed in the scope of this project's analysis
+
+-- Multiple rows shared the same complaint numbers and all other data only varying in `dw_parcel`
+-- values. Because of this, distinct complaint numbers were chosen arbitrarily as dw_parcel values
+-- are not needed in the scope of this project's analysis.
 
 DROP TABLE IF EXISTS complaints;
 

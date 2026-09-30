@@ -12,6 +12,7 @@ dependencies = [
     "pandas>=3.0.6",
     "psycopg[binary]>=3.3.6",
     "sqlalchemy>=2.1.0",
+    "tabulate>=0.10.0",
 ]
 
 [project.scripts]
